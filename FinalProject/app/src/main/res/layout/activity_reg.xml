@@ -137,6 +137,24 @@
         android:layout_weight="86.78"
         android:orientation="horizontal">
 
+        <NumberPicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/birthdayPicker"
+            android:layout_weight="1" />
+
+        <NumberPicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/birthMonthPicker"
+            android:layout_weight="1" />
+
+        <NumberPicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/birthYearPicker"
+            android:layout_weight="1" />
+
         <TextView
             android:id="@+id/view_birthdate"
             android:layout_width="wrap_content"

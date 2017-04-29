@@ -110,4 +110,14 @@
         android:onClick="ChangeToRegistrationActivity"
         android:text="@string/reg_string" />
 
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/entrance_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:id="@+id/all_button"
+        android:onClick="getAll"/>
+
 </RelativeLayout>
